@@ -34,7 +34,7 @@ body.normal .text > span {
 body.normal .line {
     padding: 0;
     margin: 0;
-    background-color: #eee;
+    background-color: #F6F6F6;
     line-height: 130%;
 }
 
@@ -80,7 +80,7 @@ body.normal .event .message {
     border: 0;
     color: #a6b9c0;
     background: none;
-    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: bold 11px "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 body.normal .line .time {
@@ -89,7 +89,7 @@ body.normal .line .time {
     margin-top: 5px;
     margin-left: 4px;
     color: #999;
-    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: bold 11px "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 body.normal .line .place {
@@ -121,23 +121,23 @@ body.normal .member:hover {
 }
 
 body.normal {
-    
+
 }
 
 body.console {
-    
+
 }
 
 body[type=channel] {
-    
+
 }
 
 body[type=talk] {
-    
+
 }
 
 body[type=console] {
-    
+
 }
 
 body.normal hr {
@@ -150,17 +150,17 @@ body.normal hr {
 }
 
 a {
-    
+
 }
 
 /* lines */
 
 .line[alternate=even] {
-    
+
 }
 
 .line[alternate=odd] {
-    
+
 }
 
 .line[type=action] .sender:before {
@@ -172,7 +172,7 @@ body.normal .line[type=action] .sender {
 }
 
 body.normal .line[type=action] .message {
-    background: #eee;
+    background: #F6F6F6;
     border-left: none;
     margin: 0 0 0 130px;
 }
@@ -201,69 +201,22 @@ body.normal .sender[type=normal] {
     color: #333;
 }
 
-body.normal .sender[type=normal][colornumber='0'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='1'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='2'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='3'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='4'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='5'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='6'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='7'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='8'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='9'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='10'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='11'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='12'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='13'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='14'] {
-    
-}
-
-body.normal .sender[type=normal][colornumber='15'] {
-    
-}
+body.normal .sender[type=normal][colornumber='0'] { color: rgb(222, 33, 33); }
+body.normal .sender[type=normal][colornumber='1'] { color: rgb(33, 153, 222); }
+body.normal .sender[type=normal][colornumber='2'] { color: rgb(222, 175, 33); }
+body.normal .sender[type=normal][colornumber='3'] { color: rgb(55, 33, 222); }
+body.normal .sender[type=normal][colornumber='4'] { color: rgb(128, 222, 33); }
+body.normal .sender[type=normal][colornumber='5'] { color: rgb(197, 33, 222); }
+body.normal .sender[type=normal][colornumber='6'] { color: rgb(33, 222, 80); }
+body.normal .sender[type=normal][colornumber='7'] { color: rgb(222, 33, 105); }
+body.normal .sender[type=normal][colornumber='8'] { color: rgb(33, 222, 222); }
+body.normal .sender[type=normal][colornumber='9'] { color: rgb(222, 102, 33); }
+body.normal .sender[type=normal][colornumber='10'] { color: rgb(33, 80, 222); }
+body.normal .sender[type=normal][colornumber='11'] { color: rgb(200, 222, 33); }
+body.normal .sender[type=normal][colornumber='12'] { color: rgb(127, 33, 222); }
+body.normal .sender[type=normal][colornumber='13'] { color: rgb(58, 222, 33); }
+body.normal .sender[type=normal][colornumber='14'] { color: rgb(222, 33, 175); }
+body.normal .sender[type=normal][colornumber='15'] { color: rgb(33, 222, 150); }
 
 /* message body */
 
@@ -293,7 +246,7 @@ body.normal .message[type=dcc_send_receive] {
 }
 
 body.normal .message[type=privmsg] {
-    
+
 }
 
 body.normal .message[type=notice] {
