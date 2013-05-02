@@ -6,8 +6,7 @@ log-view:
     scroller-highlight-color: '#d33b54'
 
 member-list:
-    font-family: 'Lucida Grande'
-    font-size: 12
+    font-size: 14
     color: '#444'
     background-color: '#fff'
     operator:
@@ -23,11 +22,11 @@ member-list:
 server-tree:
     background-color: '#fff'
     highlight:
-        color: '#d33b54'
+        color: '#0aa5ea'
     newtalk:
-        color: '#d33b54'
+        color: '#e0889a'
     unread:
-        color: '#d33b54'
+        color: '#6fbdd1'
     normal:
         active:
             color: '#444'
@@ -35,7 +34,7 @@ server-tree:
             color: '#ccc'
     selected:
         active:
-            color: '#fff'
+            color: '#000'
         inactive:
             color: '#eee'
         background:
